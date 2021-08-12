@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Teste</title>
+</head>
+<body>
+    
+        <form>
+            <fieldset>
+                <legend class="formulario">FORMULARIO</legend>
+            
+            <fieldset>
+                <legend>Dados pessoais</legend> 
+                <label>
+                    Primeiro nome: <br>
+                    <input type="text" name="pnome" id="prim_nome" title="primeiro nome" required>
+                </label>
+
+                <label>
+                    Segundo Nome: <br>
+                    <input type="text" name="snome" id="sec_nome" title="segundo nome" require>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados da empresa</legend>
+                <label>
+                    Nome da empresa: <br>
+                    <input type="text" name="empresa"id="empresa" title="nome da empresa" required >
+                </label>
+
+                <label>
+                    Última função: <br>
+                    <input type="text" name="funcao" id="funcao" title="função" required>
+                </label>
+                <label>
+                    Tempo na empresa:<br>
+                    <input type="number" min="0" max="50">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados cadastrais</legend>
+                <label>
+                    Email: <br>
+                    <input type="email" name="email" id="email" title="email" required>
+                </label>
+                <label>
+                    Senha: <br>
+                    <input type="password" name="senha" title="senha" id="senha" required>
+                </label>
+                <label>
+                    Confirmar senha: <br>
+                    <input type="password" name="senha" title="senha" id="senha" required>
+                </label>
+            </fieldset>
+            <label>
+                <h6>Declaro que li e concordo com os <a href="termos/termos.html" target="_blank">termos de serviço</a>.
+                <input class="termos" type="checkbox" name="termos" id="termos" required></h6>
+            </label>
+            <label>
+                <input type="submit" value="Enviar">
+            </label>
+        </fieldset> 
+        </form>
+    
+
+    
+</body>
+</html>

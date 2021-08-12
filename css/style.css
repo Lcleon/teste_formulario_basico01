@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(241, 238, 233);
+}
+
+h1{
+    margin-left: 650px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form{
+    width: 400px;
+    margin: auto;
+}
+.formulario{
+    text-align: center;
+    width: 400px;
+}
+
+legend{
+    padding: 7px;
+    background-color: rgb(35, 100, 143);
+    color:#fff;
+    border-radius: 5px;
+}
+
+label{
+   display: block; 
+   margin-top:10px;
+}
+fieldset{
+    margin-top: 3px;
+}
+
+input[type=text]{
+    outline:0
+}
+
+.termos{
+    display: inline;
+}
+
+input[type=checkbox]{
+    cursor:pointer;
+}
+
+input[type=submit]{
+    width: 150px;
+    background-color: rgb(35, 100, 143);
+    border-radius: 7px;
+    color:#fff;
+    margin-left: 130px;
+    cursor:pointer;
+    box-shadow:5px 5px 8px rgb(41, 22, 22);
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(252, 4, 4);
+    
+    padding: 2px;
+    border-radius: 4px;
+}
